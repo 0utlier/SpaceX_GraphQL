@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F913C0D27DEB5BF0051E3B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F913C0C27DEB5BF0051E3B4 /* AppDelegate.swift */; };
+		5F913C0F27DEB5BF0051E3B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F913C0E27DEB5BF0051E3B4 /* SceneDelegate.swift */; };
+		5F913C1127DEB5BF0051E3B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F913C1027DEB5BF0051E3B4 /* ViewController.swift */; };
+		5F913C1427DEB5BF0051E3B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F913C1227DEB5BF0051E3B4 /* Main.storyboard */; };
+		5F913C1627DEB5C80051E3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F913C1527DEB5C80051E3B4 /* Assets.xcassets */; };
+		5F913C1927DEB5C80051E3B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F913C1727DEB5C80051E3B4 /* LaunchScreen.storyboard */; };
+		5F913C2327DEB5EF0051E3B4 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = 5F913C2227DEB5EF0051E3B4 /* Apollo */; };
+		5F913C4727DEC1570051E3B4 /* Query.graphql in Resources */ = {isa = PBXBuildFile; fileRef = 5F913C4627DEC1570051E3B4 /* Query.graphql */; };
+		5FB93AA427DFBC390028E3DE /* schema.json in Resources */ = {isa = PBXBuildFile; fileRef = 5FB93AA327DFBC390028E3DE /* schema.json */; };
+		5FC5646927E2C539001E5310 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5FC5646827E2C539001E5310 /* README.md */; };
+		5FC6F9CE27E025340039ABE5 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F9CD27E025340039ABE5 /* FilterViewController.swift */; };
+		5FC6F9D627E03EA40039ABE5 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F9D527E03EA40039ABE5 /* DAO.swift */; };
+		5FC6F9DA27E15DAC0039ABE5 /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F9D927E15DAC0039ABE5 /* Popup.swift */; };
+		5FC6F9E227E2A7180039ABE5 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC6F9E127E2A7180039ABE5 /* InfoViewController.swift */; };
+		5FCFDA0E27DFA2920089305B /* Apollo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFDA0D27DFA2920089305B /* Apollo.swift */; };
+		5FCFDA2527DFB1580089305B /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCFDA2427DFB1580089305B /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F913C0927DEB5BF0051E3B4 /* SpaceXTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceXTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F913C0C27DEB5BF0051E3B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5F913C0E27DEB5BF0051E3B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5F913C1027DEB5BF0051E3B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F913C1327DEB5BF0051E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5F913C1527DEB5C80051E3B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F913C1827DEB5C80051E3B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5F913C1A27DEB5C80051E3B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F913C4627DEC1570051E3B4 /* Query.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Query.graphql; sourceTree = "<group>"; };
+		5FB93AA327DFBC390028E3DE /* schema.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		5FC5646827E2C539001E5310 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5FC6F9CD27E025340039ABE5 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		5FC6F9D527E03EA40039ABE5 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		5FC6F9D927E15DAC0039ABE5 /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		5FC6F9E127E2A7180039ABE5 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		5FCFDA0D27DFA2920089305B /* Apollo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apollo.swift; sourceTree = "<group>"; };
+		5FCFDA2427DFB1580089305B /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F913C0627DEB5BF0051E3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F913C2327DEB5EF0051E3B4 /* Apollo in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F913C0027DEB5BF0051E3B4 = {
+			isa = PBXGroup;
+			children = (
+				5F913C0B27DEB5BF0051E3B4 /* SpaceXTakeHome */,
+				5F913C0A27DEB5BF0051E3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F913C0A27DEB5BF0051E3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F913C0927DEB5BF0051E3B4 /* SpaceXTakeHome.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F913C0B27DEB5BF0051E3B4 /* SpaceXTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				5FB93AA327DFBC390028E3DE /* schema.json */,
+				5FCFDA2427DFB1580089305B /* API.swift */,
+				5F913C4627DEC1570051E3B4 /* Query.graphql */,
+				5FCFDA0D27DFA2920089305B /* Apollo.swift */,
+				5F913C0C27DEB5BF0051E3B4 /* AppDelegate.swift */,
+				5F913C0E27DEB5BF0051E3B4 /* SceneDelegate.swift */,
+				5FC6F9D527E03EA40039ABE5 /* DAO.swift */,
+				5F913C1027DEB5BF0051E3B4 /* ViewController.swift */,
+				5FC6F9CD27E025340039ABE5 /* FilterViewController.swift */,
+				5FC6F9D927E15DAC0039ABE5 /* Popup.swift */,
+				5FC6F9E127E2A7180039ABE5 /* InfoViewController.swift */,
+				5FC5646827E2C539001E5310 /* README.md */,
+				5F913C1227DEB5BF0051E3B4 /* Main.storyboard */,
+				5F913C1527DEB5C80051E3B4 /* Assets.xcassets */,
+				5F913C1727DEB5C80051E3B4 /* LaunchScreen.storyboard */,
+				5F913C1A27DEB5C80051E3B4 /* Info.plist */,
+			);
+			path = SpaceXTakeHome;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F913C0827DEB5BF0051E3B4 /* SpaceXTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F913C1D27DEB5C80051E3B4 /* Build configuration list for PBXNativeTarget "SpaceXTakeHome" */;
+			buildPhases = (
+				5F913C3027DEB8640051E3B4 /* Generate Apollo GraphQL API */,
+				5F913C0527DEB5BF0051E3B4 /* Sources */,
+				5F913C0627DEB5BF0051E3B4 /* Frameworks */,
+				5F913C0727DEB5BF0051E3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceXTakeHome;
+			packageProductDependencies = (
+				5F913C2227DEB5EF0051E3B4 /* Apollo */,
+			);
+			productName = SpaceXTakeHome;
+			productReference = 5F913C0927DEB5BF0051E3B4 /* SpaceXTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F913C0127DEB5BF0051E3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5F913C0827DEB5BF0051E3B4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 5F913C0427DEB5BF0051E3B4 /* Build configuration list for PBXProject "SpaceXTakeHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F913C0027DEB5BF0051E3B4;
+			packageReferences = (
+				5F913C2127DEB5EF0051E3B4 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
+			productRefGroup = 5F913C0A27DEB5BF0051E3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F913C0827DEB5BF0051E3B4 /* SpaceXTakeHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F913C0727DEB5BF0051E3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC5646927E2C539001E5310 /* README.md in Resources */,
+				5F913C4727DEC1570051E3B4 /* Query.graphql in Resources */,
+				5FB93AA427DFBC390028E3DE /* schema.json in Resources */,
+				5F913C1927DEB5C80051E3B4 /* LaunchScreen.storyboard in Resources */,
+				5F913C1627DEB5C80051E3B4 /* Assets.xcassets in Resources */,
+				5F913C1427DEB5BF0051E3B4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F913C3027DEB8640051E3B4 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Don't run this during index builds\nif [ $ACTION = \"indexbuild\" ]; then exit 0; fi\n\n# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n# \"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"https://api.spacex.land/graphql/\"\n# \"${SCRIPT_PATH}\"/run-bundled-codegen.sh schema:download --endpoint=\"https://apollo-fullstack-tutorial.herokuapp.com/graphql\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F913C0527DEB5BF0051E3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC6F9D627E03EA40039ABE5 /* DAO.swift in Sources */,
+				5F913C1127DEB5BF0051E3B4 /* ViewController.swift in Sources */,
+				5FC6F9DA27E15DAC0039ABE5 /* Popup.swift in Sources */,
+				5F913C0D27DEB5BF0051E3B4 /* AppDelegate.swift in Sources */,
+				5FC6F9E227E2A7180039ABE5 /* InfoViewController.swift in Sources */,
+				5F913C0F27DEB5BF0051E3B4 /* SceneDelegate.swift in Sources */,
+				5FC6F9CE27E025340039ABE5 /* FilterViewController.swift in Sources */,
+				5FCFDA0E27DFA2920089305B /* Apollo.swift in Sources */,
+				5FCFDA2527DFB1580089305B /* API.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5F913C1227DEB5BF0051E3B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F913C1327DEB5BF0051E3B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5F913C1727DEB5C80051E3B4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F913C1827DEB5C80051E3B4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5F913C1B27DEB5C80051E3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F913C1C27DEB5C80051E3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F913C1E27DEB5C80051E3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8S4TEK739;
+				INFOPLIST_FILE = SpaceXTakeHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leonard.JD.SpaceXTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F913C1F27DEB5C80051E3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J8S4TEK739;
+				INFOPLIST_FILE = SpaceXTakeHome/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Leonard.JD.SpaceXTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F913C0427DEB5BF0051E3B4 /* Build configuration list for PBXProject "SpaceXTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F913C1B27DEB5C80051E3B4 /* Debug */,
+				5F913C1C27DEB5C80051E3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F913C1D27DEB5C80051E3B4 /* Build configuration list for PBXNativeTarget "SpaceXTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F913C1E27DEB5C80051E3B4 /* Debug */,
+				5F913C1F27DEB5C80051E3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5F913C2127DEB5EF0051E3B4 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.51.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5F913C2227DEB5EF0051E3B4 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5F913C2127DEB5EF0051E3B4 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5F913C0127DEB5BF0051E3B4 /* Project object */;
+}
